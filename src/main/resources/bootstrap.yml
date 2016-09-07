@@ -1,0 +1,7 @@
+server:
+  port: 8027
+spring:
+  application:
+    name: tkh-dig-turnbine
+    
+    
