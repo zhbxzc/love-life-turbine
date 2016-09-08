@@ -1,4 +1,4 @@
-package com.taikang.healthcare.cis.dig;
+package com.love.life.turbine.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,11 +15,11 @@ import org.springframework.context.annotation.Bean;
 @EnableHystrixDashboard
 @SpringBootApplication
 @EnableEurekaClient
-public class TkhDigTurbineApplication
+public class TurbineApplication
 {
 
 	public static void main(String[] args)
 	{
-		SpringApplication.run(TkhDigTurbineApplication.class, args);
+		SpringApplication.run(TurbineApplication.class, args);
 	}
 }
