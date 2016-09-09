@@ -14,7 +14,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 turbine:
-  appConfig: love-origami-domain,cloud-cust-domain
+  appConfig: love-origami-domain,cloud-cust-domain,love-life-app
   aggregator:
     clusterConfig: MAIN
   clusterNameExpression: metadata['cluster']
